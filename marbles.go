@@ -90,6 +90,7 @@ func (t *SimpleChaincode) Invoke(stub shim.ChaincodeStubInterface) pb.Response {
                 return read(stub, args)
         }
 
+      //sdasdasd
         // error out
         fmt.Println("Received unknown invoke function name - " + function)
         return shim.Error("Received unknown invoke function name - '" + function + "'")
